@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Кликер</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="img/mouse.png">
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<body>
+  <main>
+    <h3><font size="4" color="white" face="Arial">Игра кликер</h3>
+    <h1 id ="score">0$<img src="img/coins.png"></h1>
+    <button id="clickbtn" onclick="clickBtn()">+$</button>
+    <br><input type="button" value="Прокачка на 1 уровень| -100$" onclick="update()">
+    <br><input type="button" value="Прокачка на 2 уровня| -150$" onclick="update1()">
+    <br><input type="button" value="Прокачка на 3 уровня| -250$" onclick="update2()">
+    <br><input type="button" value="Прокачка на 10 уровней| -500$" onclick="update3()">
+    <br><input type="button" value="Автокликер| -1000$" onclick="auto()">
+    <br><input type="button" value="Подробнее" onclick="reboot()">
+    <img src="img/profit.png" class="img" onclick="pashalka()">
+  </main>
+</body>
+  <script  src="./script.js"></script>
+</body>
+</html>
